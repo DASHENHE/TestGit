@@ -12,7 +12,7 @@ public class EmpDaoImpl implements EmpDao{
 	 private static PreparedStatement pst;
 	 private static ResultSet rs;
 
-	// 增加
+
 	@Override
 	public int insert(Emp emp) {
 		String sql = "INSERT INTO emp (eid,ename,esex,eage,ebirthday,ephone,eaddress,did)VALUES (?,?,?,?,?,?,?,?)";
